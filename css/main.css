@@ -211,7 +211,7 @@ h5, .h5 {
 
 h6, .h6 {
     font-weight: 700;
-    font-size: 1.422rem;
+    font-size: 1.822rem;
     line-height: 1.406;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -516,7 +516,6 @@ pre,
 blockquote, 
 figure, 
 table, 
-p, 
 ul, 
 ol, 
 dl, 
@@ -526,7 +525,9 @@ form,
     margin-bottom: 3.2rem;
 }
 
-
+p {
+    margin-bottom: 1.2rem;
+}
 
 /* ===================================================================
  * # preloader
@@ -1835,11 +1836,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-content {
     background: #ffffff;
-    padding: 4.4rem 0 3.6rem 0;
+    padding: 4.4rem 0 3.6rem 0
 }
 
 .s-content__main {
-    padding-right: 4.6rem;
+    padding-right: 0rem;
 }
 
 .ss-single .s-content__main {
