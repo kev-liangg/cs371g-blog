@@ -79,12 +79,12 @@
                     <header class="entry__header">
 
                         <h2 class="entry__title h1">
-                            <a href="entry1.html" title="">Entry #6</a>
+                            <a href="entry1.html" title="">Entry #7</a>
                         </h2>
 
                         <div class="entry__meta">
                             <ul>
-                                <li>February 28, 2021</li>
+                                <li>March 7, 2021</li>
                                 <li>Kevin Liang</li>
                             </ul>
                         </div>
@@ -101,55 +101,53 @@
                         <h6> What did you do this past week? </h6>
 
                         <p>
-                            This past week, I worked on the IDB project with my group. We made good progress in setting up our development environments and hope to be able to deploy to AWS very soon with our Docker, frontend, and backend components.
+                            This past week, I put in a lot of work on Phase I of the IDB project along with my group. I specifically implemented the dynamic about page and the stylized landing page, and worked to link our AWS cloudfront distribution to the Namecheap domain name. Everything ended up working out in the end, but it was definitely submitted way too close to the deadline. We will definitely have to be more proactive with time management as the difficulty of the project ramps up.                        
                         </p>
 
                         <h6> What's in your way? </h6>
 
                         <p>
-                            I have an upcoming Algorithms exam that has been stressing me out, and I can’t wait to get it over with. Other than that nothing is particularly in my way. The rest of the AWS setup seems straightforward enough, so I don’t anticipate it giving us any major issues.
+                            Nothing in particular is in my way, now that my team has cleared the major phase deadline. We were able to get a headstart by implementing the website already with a React frontend and Python backend and verifying that those successfully deploy. We spent a lot of time learning React and Javascript, and now it looks like we might have to do the same learning from scratch with Python/wsgi and SQL.                        
                         </p>
 
                         <h6> What will you do next week? </h6>
 
                         <p>
-                            I will work with my group to finish deploying our website to AWS as a first priority. After that, the remaining phase requirements should be more simple work. Our group as a whole has some timezone differences so I think a lot of the work will end up being done asynchronously, making it especially important to use the issue tracker in GitLab moving forward.
+                            Next week, I will definitely jump into Phase II with the rest of my team. Even with our backend setup, it seems like we will have to spend a lot more time implementing our SQL designs and working with the actual data. 
+                        
                         </p>
 
-                        <h6> If you read it, what did you think of the Single Responsibility Principle? </h6>
+                        <h6> If you read it, what did you think of the Open-Closed Principle? </h6>
 
                         <p>
-                            It took me a few times rereading the paper to fully comprehend the message. At first I was a bit confused trying to apply the principles of code reuse I learned in Data Structures, also in the context of Object-Oriented Programming. Splitting responsibilities into multiple classes, even if the classes were ultimately similar, seemed counterproductive to the idea of reusing code. I realized I needed to shift my perspective to a maintenance standpoint, which is something I never had to do explicitly in that course. One should design increasingly-complex systems with the Single Responsibility Principle in mind first, and something simpler like code reuse second.
+                            I really enjoyed reading the Open-Closed Principle paper. A lot of what it covered was either familiar or intuitive to me, and it was a great validation to how far I’ve come as a software developer. I will always think there’s a certain beauty to object-oriented design, and I’m glad to be applying this again through Javascript and React in some ways.
                         </p>
 
-                        <h6> What was your experience of IDB1 and reduce? </h6>
+                        <h6> What was your experience of iterators and reduce2? </h6>
 
                         <p>
-                            So far, my experience has been very straightforward. IDB1 has so far required me to learn and research new technologies and toolchains, which is on par with my expectations for this course. Reduce was also fairly simple, as I have gotten used to thinking about data structures in terms of iterator operations. The Python syntax makes iteration fairly easy, though I’m still not a fan of the type ambiguity at times.
-                        </p>
-
-                        <h6> How did you fare in the storm? </h6>
-
-                        <p>
-                            I was hit pretty hard, and my studio lost water and electricity for a while. Living alone definitely made everything magnitudes more stressful. There were times that I wondered if I could just simply freeze to death, and how long it would be until someone would check on me. Fortunately, I was able to apply for UT emergency housing services and weather out the storm there. In hindsight, I’m glad I dealt with all on my own accord so I didn’t have to be too much of a burden on others.
+                            I already had a very solid understanding of iterators since I took Generic Programming with Dr. Downing last summer. Iterators are irreplaceable there, since a lot of generic templated functions will end up taking in an iterator as a parameter, and the function needs to work with the “weakest” possible iterator. A lot of it is definitely outside the scope of our Python-based lectures, but it was very reassuring seeing the concept emerge again. The exercise reduce2 was straightforward, but apparently my team came up with a non-intended approach. We didn’t end up explicitly throwing the exception in one case, but ended up using the underlying Python machinery to throw the exception for us which somehow still managed to pass that test case.                        
                         </p>
 
                         <h6>What made you happy this week?</h6>
 
-                        <p>I’m just happy that things are back to normal and my course schedules have been accommodating in light of the storm. The whole thing really amplified my existing stressors in life, and I’m hoping that they’ll go away eventually as well.</p>
+                        <p>
+                            I talked to my father about possibly starting therapy for my recurring self-hatred issues. He was supportive about it, which is good, but I’m still a bit unsure if I should take the chance. I’m covered under his insurance plan but the deductible is really high. I’m not particularly keen to pay so much out of pocket for something that’s not guaranteed to fix anything.
+                        </p>
+
 
                         <h6>What's your pick-of-the-week or tip-of-the-week?</h6>
 
 
-                        <p>I have been following this interactive <a href="https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp" target="_blank"
-                                rel="noopener noreferrer">Bootstrap walkthrough</a> for the IDB project. It’s fairly beginner-friendly as I’ve been able to comprehend the material with a very minimal knowledge of web programming, and I definitely appreciate the interactive windows to visualize how the code works.</p>
+                        <p>This <a href="https://www.techomoro.com/how-to-create-a-multi-page-website-with-react-in-5-minutes/" target="_blank"
+                                rel="noopener noreferrer">interactive guide</a> was very helpful for setting up multiple pages in the React frontend that will be required for Phase II. I remember being really confused since it was so different from simply linking HTML pages together, but having the code sandbox was really helpful for understanding what every part of the code did. It becomes almost trivial past the initial learning curve, and this resource will definitely help reach that point.</p>
                     </div> <!-- entry__content -->
                     
                     <ul class="entry__post-nav h-group">
-                        <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry7.html"><strong
-                                    class="h6">Next Entry</strong>Entry #7</a></li>
+                        <!-- <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry7.html"><strong
+                                    class="h6">Next Entry</strong>Entry #8</a></li> -->
                         <li class="prev"><a rel="prev"
-                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry4.html"><strong class="h6">Previous
+                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry6.html"><strong class="h6">Previous
                                     Entry</strong>Entry #4</a></li>
                     </ul>
 
