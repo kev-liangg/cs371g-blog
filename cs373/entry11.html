@@ -79,12 +79,12 @@
                     <header class="entry__header">
 
                         <h2 class="entry__title h1">
-                            <a href="entry1.html" title="">Entry #10</a>
+                            <a href="entry1.html" title="">Entry #11</a>
                         </h2>
 
                         <div class="entry__meta">
                             <ul>
-                                <li>April 4, 2021</li>
+                                <li>April 11, 2021</li>
                                 <li>Kevin Liang</li>
                             </ul>
                         </div>
@@ -101,55 +101,57 @@
                         <h6> What did you do this past week? </h6>
 
                         <p>
-                            This past week, I have been taking a bit of a break after finishing Phase II and my last algorithms exam, since I didn’t have anything immediately due afterwards. It definitely was nice to unwind from that combined stress and clear my head for this upcoming week.
+                            This past week, I made great progress with my team on the single-column sorting, filtering, and searching part of the Phase III requirements . After resolving a few grading issues, we were all happy with our performance in the last phase and have a solid foundation of work to move forward and complete everything.
                         </p>
 
                         <h6> What's in your way? </h6>
 
                         <p>
-                            Nothing is really in our way regarding the project, other than waiting for the grader assessment for the past phase. We were able to get to a good spot in terms of Phase II requirements all things considered, so our first priority will definitely be to address the feedback once the grades get released. 
+                            Just over the weekend, AWS decided to terminate one of our EC2 cloud-compute instances which completely broke our backend environment. I have been troubleshooting that extensively, both fixing the issue as well as reconfiguring our project so that never happens again. I suspect it was because we used spot instances in our load balancer, and possibly unforeseen (and malicious?) circumstances at AWS servers made it such that other hosted applications used up all of the available spot instances leaving nothing for us.
                         </p>
 
                         <h6> What will you do next week? </h6>
 
                         <p>
-                            Next week I will be working on Phase III of the project with my team. The requirements for this next phase definitely seem to center around refining what we already have, so hopefully we don’t run into too many major blockers in getting those done. There’s always the chance though that filtering or searching breaks our pagination and query models, so we will definitely start early in case we need to redesign anything.
+                            Once I resolve our computing instances issue, I will work with my team to finish multi-column filter and whole-database searching. We also need to do a lot of work on our presentation of the website, both the UX and the UI. Indeed, we all classified ourselves as full-stack developers so we definitely have all our work cut out for us across the entire website.
                         </p>
 
-                        <h6> If you read it, what did you think of the Dependency Inversion Principle? </h6>
+                        <h6> If you read it, what did you think of the Why getter and setter methods are evil? </h6>
 
                         <p>
-                            I felt the paper was really similar to both the Liskov Substitution Principle and the Interface Segregation Principle rather than building too much on its own topic. Still, I definitely agree it was helpful to think of design in terms of explicit dependencies, and there’s nothing wrong with principles in Software Engineering building upon each other to produce the best possible code.
+                            This is definitely my favorite paper so far. Relevantly, it makes so much sense with all the meticulous interfaces I need to understand with third-party Typescript components. I now know why all the types are defined as interfaces of interfaces of interfaces and it’s all for the benefit of me, the user of the code! I definitely wish we would have learned the “full field encapsulation” concept earlier possibly in Data Structures, as it’s clearly a very important part in object oriented design.
                         </p>
 
-                        <h6> What was your experience of +, *, ** and decorators? </h6>
+                        <h6> What was your experience of select, project, cross join and theta join? </h6>
 
                         <p>
-                            I felt the overall functionality of the +, *, and ** operators were relatively straightforward, but I definitely struggled a bit during Wednesday’s exercise when it came to using and applying them. However, I don’t feel it was because the operators themselves were confusing. The main thing I missed was the ability in Python to return an uninitialized class in a function, and then later initialize that class in later code. I definitely would have never thought that was possible, as my assumption was that only initialized objects could be passed. But I suppose we did cover that everything, including types, has an address and hence is fair game to be passed around. Working with the wrapper function in the exercises definitely helped me understand decorators better as well.
+                            All of the relation operations made perfect sense to me, in both their use and their implementation. I have a good bit of experience working with data relations from my Data Mining course so the overall usage was definitely familiar. Still, it was interesting seeing the very Pythonic implementations of the backing code that accomplished the operations.
                         </p>
 
                         <h6>What made you happy this week?</h6>
 
                         <p>
-                            I got a Costco membership, and also booked my first therapy session for next week. 
+                            I finally received my license to carry, and I’ve wasted no time in getting accustomed to this new lifestyle. I’ve been quite shaken up by the constant rise in Asian hate crimes that the news has just recently decided is worth reporting. Even if I’m less likely to be targeted as a victim as a younger male, after training and practicing for so long I’m definitely glad that I finally have the official and legal means to defend myself and more vulnerable groups.
                         </p>
 
 
                         <h6>What's your pick-of-the-week or tip-of-the-week?</h6>
 
-
-                        <p>My tip of the week is <a href="https://pandas.pydata.org/" target="_blank"
-                                rel="noopener noreferrer">pandas</a>, a Python library for all things data processing.                                 
-                                Everything that pandas provides is all just a fantastic and intuitive way to organize and clean any sort of data, and its Python implementation allows it to integrate perfectly with SQLAlchemy to put that processed data into the database. It’s definitely one of the top tools for data mining and data science, so I definitely recommend it for any time you have to deal with lots of information.
-                     
+                        <p>Our team ran into issues in AWS with our backend application/environment and the database, where we mistakenly linked our environment instance with the database instance. This caused an unwanted dependency where we had to delete our entire database when the environment crashed. 
+                            
+                            <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/AWSHowTo.RDS.html" target="_blank"
+                                rel="noopener noreferrer">This guide</a>
+                            
+                            helped me understand what the actual relationship should have been, and it’s definitely applicable to overall systems where you have these sorts of connections between components.
                         </p>
+
                     </div> <!-- entry__content -->
                     
                     <ul class="entry__post-nav h-group">
-                        <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry11.html"><strong
-                                    class="h6">Next Entry</strong>Entry #11</a></li>
+                        <!-- <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry11.html"><strong
+                                    class="h6">Next Entry</strong>Entry #11</a></li> -->
                         <li class="prev"><a rel="prev"
-                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry10.html"><strong class="h6">Previous
+                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry9.html"><strong class="h6">Previous
                                     Entry</strong>Entry #9</a></li>
                     </ul>
 
