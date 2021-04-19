@@ -101,58 +101,60 @@
                         <h6> What did you do this past week? </h6>
 
                         <p>
-                            This past week, I made great progress with my team on the single-column sorting, filtering, and searching part of the Phase III requirements . After resolving a few grading issues, we were all happy with our performance in the last phase and have a solid foundation of work to move forward and complete everything.
+                            This past week, I finished up Phase III with the rest of my team. We struggled a bit with all the work involved in filtering, searching, and sorting but we were able to get all of those requirements working on our site. 
                         </p>
 
                         <h6> What's in your way? </h6>
 
                         <p>
-                            Just over the weekend, AWS decided to terminate one of our EC2 cloud-compute instances which completely broke our backend environment. I have been troubleshooting that extensively, both fixing the issue as well as reconfiguring our project so that never happens again. I suspect it was because we used spot instances in our load balancer, and possibly unforeseen (and malicious?) circumstances at AWS servers made it such that other hosted applications used up all of the available spot instances leaving nothing for us.
+                            Nothing is quite in my way. As a team, we were able to implement all of the hard requirements for Phase III though we did run out of time to add some nicer features. We will definitely have to see our evaluation for our current website and hopefully have a chance to address that last bit of feedback before our final phase.
                         </p>
 
                         <h6> What will you do next week? </h6>
 
                         <p>
-                            Once I resolve our computing instances issue, I will work with my team to finish multi-column filter and whole-database searching. We also need to do a lot of work on our presentation of the website, both the UX and the UI. Indeed, we all classified ourselves as full-stack developers so we definitely have all our work cut out for us across the entire website.
+                            Next week, I will probably try to get a headstart on the concrete requirements for Phase IV as well as implement some of the features that would be nice to have on our website. Since most of us are quite new to full-stack development, our code base is kinda scattered all over the place so there will definitely be a lot of refactoring to do, both on the exterior and interior of our project.
                         </p>
 
-                        <h6> If you read it, what did you think of the Why getter and setter methods are evil? </h6>
+                        <h6> If you read it, what did you think of the More getters and setters? </h6>
 
                         <p>
-                            This is definitely my favorite paper so far. Relevantly, it makes so much sense with all the meticulous interfaces I need to understand with third-party Typescript components. I now know why all the types are defined as interfaces of interfaces of interfaces and it’s all for the benefit of me, the user of the code! I definitely wish we would have learned the “full field encapsulation” concept earlier possibly in Data Structures, as it’s clearly a very important part in object oriented design.
+                            I felt that the examples took up a bit too much of the paper, and sifting through them trying to understand everything felt really gritty. It’s definitely more difficult to effectively read code than actually try to write it, but I think thinking in ways outside this getter/setter design pattern is the start to implementing other systems in this more beneficial way. 
                         </p>
 
-                        <h6> What was your experience of select, project, cross join and theta join? </h6>
+                        <h6> What was your experience of SQL? </h6>
 
                         <p>
-                            All of the relation operations made perfect sense to me, in both their use and their implementation. I have a good bit of experience working with data relations from my Data Mining course so the overall usage was definitely familiar. Still, it was interesting seeing the very Pythonic implementations of the backing code that accomplished the operations.
+                            I thought SQL was fairly intuitive and similar to my experience with data in Pandas. I really like the concept of its declarative syntax, and getting what you need out of one line is always satisfying.
+
                         </p>
 
                         <h6>What made you happy this week?</h6>
 
                         <p>
-                            I finally received my license to carry, and I’ve wasted no time in getting accustomed to this new lifestyle. I’ve been quite shaken up by the constant rise in Asian hate crimes that the news has just recently decided is worth reporting. Even if I’m less likely to be targeted as a victim as a younger male, after training and practicing for so long I’m definitely glad that I finally have the official and legal means to defend myself and more vulnerable groups.
+                            I think I’m just happy that we were able to get the technical stuff working for Phase III, and finally be able to take a bit of a breather after hitting those certain walls for so long. I’m definitely feeling a bit of burnout with everything that’s going on, but I know I have to stay strong for this final stretch.
                         </p>
 
 
                         <h6>What's your pick-of-the-week or tip-of-the-week?</h6>
 
-                        <p>Our team ran into issues in AWS with our backend application/environment and the database, where we mistakenly linked our environment instance with the database instance. This caused an unwanted dependency where we had to delete our entire database when the environment crashed. 
+                        <p>My tip-of-the-week is definitely learning a bit about how
                             
-                            <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/AWSHowTo.RDS.html" target="_blank"
-                                rel="noopener noreferrer">This guide</a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Glossary/percent-encoding" target="_blank"
+                                rel="noopener noreferrer">percent encoding</a>
+
+                            works. Our team spent so much time trying to debug why our backend queries involving ‘%’ weren't working with certain combinations like ‘%c%’ or ‘%ca%’. It turns out we needed to percent-encode the actual ‘%’ itself as ‘%25’ because ‘%ca’ and etc was being interpreted as a hexadecimal code. Looking past the pain this managed to cause me, it’s a pretty cool way of expressing special characters and data within the URL.
                             
-                            helped me understand what the actual relationship should have been, and it’s definitely applicable to overall systems where you have these sorts of connections between components.
                         </p>
 
                     </div> <!-- entry__content -->
                     
                     <ul class="entry__post-nav h-group">
-                        <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry12.html"><strong
-                                    class="h6">Next Entry</strong>Entry #12</a></li>
+                        <!-- <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry11.html"><strong
+                                    class="h6">Next Entry</strong>Entry #11</a></li> -->
                         <li class="prev"><a rel="prev"
-                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry10.html"><strong class="h6">Previous
-                                    Entry</strong>Entry #10</a></li>
+                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry11.html"><strong class="h6">Previous
+                                    Entry</strong>Entry #11</a></li>
                     </ul>
 
 
