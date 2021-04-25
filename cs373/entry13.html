@@ -79,12 +79,12 @@
                     <header class="entry__header">
 
                         <h2 class="entry__title h1">
-                            <a href="entry1.html" title="">Entry #12</a>
+                            <a href="entry1.html" title="">Entry #13</a>
                         </h2>
 
                         <div class="entry__meta">
                             <ul>
-                                <li>April 18, 2021</li>
+                                <li>April 15, 2021</li>
                                 <li>Kevin Liang</li>
                             </ul>
                         </div>
@@ -100,61 +100,61 @@
 
                         <h6> What did you do this past week? </h6>
 
-                        <p>
-                            This past week, I finished up Phase III with the rest of my team. We struggled a bit with all the work involved in filtering, searching, and sorting but we were able to get all of those requirements working on our site. 
+                        <p>                            
+                            This past week, I mostly focused on work for other classes. I have a final project presentation this coming week so I have been mostly working on that, while making sure I don’t fall behind on any of the other material or homework for the others.
                         </p>
 
                         <h6> What's in your way? </h6>
 
                         <p>
-                            Nothing is quite in my way. As a team, we were able to implement all of the hard requirements for Phase III though we did run out of time to add some nicer features. We will definitely have to see our evaluation for our current website and hopefully have a chance to address that last bit of feedback before our final phase.
+                            Nothing is in my way besides the usual amount of work left to do. I feel comfortable meeting all the upcoming deadlines for all my courses, and I’m definitely looking forward for this semester to wrap up.
                         </p>
 
                         <h6> What will you do next week? </h6>
 
                         <p>
-                            Next week, I will probably try to get a headstart on the concrete requirements for Phase IV as well as implement some of the features that would be nice to have on our website. Since most of us are quite new to full-stack development, our code base is kinda scattered all over the place so there will definitely be a lot of refactoring to do, both on the exterior and interior of our project.
+                            Next week I will be prioritizing Phase IV of our group project. Refactoring will probably be the most tedious of the work, though making a video of our presentation might also be time-consuming if we decide to go that route. Either way, the work left is all straightforward and should be very manageable.
                         </p>
 
-                        <h6> If you read it, what did you think of the More getters and setters? </h6>
+                        <h6> If you read it, what did you think of the What Happens to Us Does Not Happen to Most of You? </h6>
 
                         <p>
-                            I felt that the examples took up a bit too much of the paper, and sifting through them trying to understand everything felt really gritty. It’s definitely more difficult to effectively read code than actually try to write it, but I think thinking in ways outside this getter/setter design pattern is the start to implementing other systems in this more beneficial way. 
+                            I think it’s disappointing that the issues described in the paper are still prevalent in today’s contemporary digital age, and even more so that the knowledge of it seems to be niche. I’m sure most people nowadays would agree if you pressed them about the issues, but I don’t think it’s actually something people consider day-to-day. It’s really hard to change active mindsets when there’s so much more going on in the industry to worry about, but any progress is progress nonetheless and I’m optimistic that awareness will continue to spread.
                         </p>
 
-                        <h6> What was your experience of SQL? </h6>
+                        <h6> What was your experience of joins and refactoring? </h6>
 
                         <p>
-                            I thought SQL was fairly intuitive and similar to my experience with data in Pandas. I really like the concept of its declarative syntax, and getting what you need out of one line is always satisfying.
-
+                            Joins were definitely an interesting topic, and I understood them better with all the examples about the shared ID’s. Still, they were definitely a bit tricky and incorporating them with subqueries and conditions was a lot to digest. Refactoring was simple enough from the exercise we were given, and it definitely corresponds with my existing ideas of how refactoring should be used. I imagine that having a more formal instruction about refactoring though will help us pinpoint what to do in that Phase IV part of the requirements.
                         </p>
 
                         <h6>What made you happy this week?</h6>
 
                         <p>
-                            I think I’m just happy that we were able to get the technical stuff working for Phase III, and finally be able to take a bit of a breather after hitting those certain walls for so long. I’m definitely feeling a bit of burnout with everything that’s going on, but I know I have to stay strong for this final stretch.
+                            I am fully back on my schedule of working out again mostly at Greg, and I am already getting a lot of my progress back since I lost them over this past year of relative absence. I also picked up a 6 pound bag of protein powder for $30 at Costo, so I also have great deals there to fuel my gains.
                         </p>
 
 
                         <h6>What's your pick-of-the-week or tip-of-the-week?</h6>
 
-                        <p>My tip-of-the-week is definitely learning a bit about how
-                            
-                            <a href="https://developer.mozilla.org/en-US/docs/Glossary/percent-encoding" target="_blank"
-                                rel="noopener noreferrer">percent encoding</a>
+                        <p>
+                            One of the optimizations I made for my group’s CI pipeline was to only run the frontend and backend tests when those source files changed. 
+                            The <a href="https://docs.gitlab.com/ee/ci/yaml/#onlyexcept-basic" target="_blank"
+                            rel="noopener noreferrer">official docs</a> detail how to define these rules in the configuration file, and I think it’s smart to implement this in order to save time. There’s no point running backend unit tests if nothing in the backend changes, and vice versa for the frontend. 
+                        </p>
 
-                            works. Our team spent so much time trying to debug why our backend queries involving ‘%’ weren't working with certain combinations like ‘%c%’ or ‘%ca%’. It turns out we needed to percent-encode the actual ‘%’ itself as ‘%25’ because ‘%ca’ and etc was being interpreted as a hexadecimal code. Looking past the pain this managed to cause me, it’s a pretty cool way of expressing special characters and data within the URL.
-                            
+                        <p>
+                            That said, it makes sense to always run the Postman and the GUI tests because those interact with the hosted versions of the websites, and it is always good to verify the uptime of non-unit tests.
                         </p>
 
                     </div> <!-- entry__content -->
                     
                     <ul class="entry__post-nav h-group">
-                        <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry13.html"><strong
-                                    class="h6">Next Entry</strong>Entry #13</a></li>
+                        <!-- <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry11.html"><strong
+                                    class="h6">Next Entry</strong>Entry #11</a></li> -->
                         <li class="prev"><a rel="prev"
-                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry11.html"><strong class="h6">Previous
-                                    Entry</strong>Entry #11</a></li>
+                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry12.html"><strong class="h6">Previous
+                                    Entry</strong>Entry #12</a></li>
                     </ul>
 
 
