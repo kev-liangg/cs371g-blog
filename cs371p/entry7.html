@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>CS373 Spring 2021: Kevin Liang</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top" class="ss-single">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="s-header__content column">
+                <h1 class="s-header__logotext">
+                    <a title="">CS373 Spring 2021: Kevin Liang</a>
+                </h1>
+                <p class="s-header__tagline">Welcome to my blog!</p>
+            </div>
+
+        </div> <!-- end row -->
+
+        <a class="header-menu-toggle" href="#0" title="Menu"><span>Menu</span></a>
+
+    </header> <!-- Header End -->
+
+
+
+    <!-- Content
+    ================================================== -->
+    <div class="s-content">
+
+        <div class="row">
+
+            <div id="main" class="s-content__main large-8 column">
+
+                <article class="entry">
+
+                    <header class="entry__header">
+
+                        <h2 class="entry__title h1">
+                            <a href="entry1.html" title="">Entry #7</a>
+                        </h2>
+
+                        <div class="entry__meta">
+                            <ul>
+                                <li>March 7, 2021</li>
+                                <li>Kevin Liang</li>
+                            </ul>
+                        </div>
+
+                    </header> <!-- entry__header -->
+
+                    <div class="entry__content-media">
+                        <img src="images/cs373-portrait.jpg" height=50%; width=50%;
+                            sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    </div>
+
+                    <div class="entry__content">
+
+                        <h6> What did you do this past week? </h6>
+
+                        <p>
+                            This past week, I put in a lot of work on Phase I of the IDB project along with my group. I specifically implemented the dynamic about page and the stylized landing page, and worked to link our AWS cloudfront distribution to the Namecheap domain name. Everything ended up working out in the end, but it was definitely submitted way too close to the deadline. We will definitely have to be more proactive with time management as the difficulty of the project ramps up.                        
+                        </p>
+
+                        <h6> What's in your way? </h6>
+
+                        <p>
+                            Nothing in particular is in my way, now that my team has cleared the major phase deadline. We were able to get a headstart by implementing the website already with a React frontend and Python backend and verifying that those successfully deploy. We spent a lot of time learning React and Javascript, and now it looks like we might have to do the same learning from scratch with Python/wsgi and SQL.                        
+                        </p>
+
+                        <h6> What will you do next week? </h6>
+
+                        <p>
+                            Next week, I will definitely jump into Phase II with the rest of my team. Even with our backend setup, it seems like we will have to spend a lot more time implementing our SQL designs and working with the actual data. 
+                        
+                        </p>
+
+                        <h6> If you read it, what did you think of the Open-Closed Principle? </h6>
+
+                        <p>
+                            I really enjoyed reading the Open-Closed Principle paper. A lot of what it covered was either familiar or intuitive to me, and it was a great validation to how far I’ve come as a software developer. I will always think there’s a certain beauty to object-oriented design, and I’m glad to be applying this again through Javascript and React in some ways.
+                        </p>
+
+                        <h6> What was your experience of iterators and reduce2? </h6>
+
+                        <p>
+                            I already had a very solid understanding of iterators since I took Generic Programming with Dr. Downing last summer. Iterators are irreplaceable there, since a lot of generic templated functions will end up taking in an iterator as a parameter, and the function needs to work with the “weakest” possible iterator. A lot of it is definitely outside the scope of our Python-based lectures, but it was very reassuring seeing the concept emerge again. The exercise reduce2 was straightforward, but apparently my team came up with a non-intended approach. We didn’t end up explicitly throwing the exception in one case, but ended up using the underlying Python machinery to throw the exception for us which somehow still managed to pass that test case.                        
+                        </p>
+
+                        <h6>What made you happy this week?</h6>
+
+                        <p>
+                            I talked to my father about possibly starting therapy for my constant self-hatred issues. He was supportive about it, which is good, but I’m still a bit unsure if I should take the chance. I’m covered under his insurance plan but the deductible is really high. I’m not particularly keen to pay so much out of pocket for something that’s not guaranteed to fix anything.
+                        </p>
+
+
+                        <h6>What's your pick-of-the-week or tip-of-the-week?</h6>
+
+
+                        <p>This <a href="https://www.techomoro.com/how-to-create-a-multi-page-website-with-react-in-5-minutes/" target="_blank"
+                                rel="noopener noreferrer">interactive guide</a> was very helpful for setting up multiple pages in the React frontend that will be required for Phase II. I remember being really confused since it was so different from simply linking HTML pages together, but having the code sandbox was really helpful for understanding what every part of the code did. It becomes almost trivial past the initial learning curve, and this resource will definitely help reach that point.</p>
+                    </div> <!-- entry__content -->
+                    
+                    <ul class="entry__post-nav h-group">
+                        <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry8.html"><strong
+                                    class="h6">Next Entry</strong>Entry #8</a></li>
+                        <li class="prev"><a rel="prev"
+                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry6.html"><strong class="h6">Previous
+                                    Entry</strong>Entry #6</a></li>
+                    </ul>
+
+
+                </article> <!-- end entry -->
+
+            </div> <!-- end main -->
+
+        </div> <!-- end row -->
+
+    </div> <!-- end content-wrap -->
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <!--
+        <div class="row s-footer__top">
+            <div class="column">
+                <ul class="s-footer__social">
+                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-vimeo-v" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-skype" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div> <!-- end footer__top -->
+
+        <div class="row s-footer__bottom">
+
+            <div class="ss-copyright">
+                <span>© Copyright Keep It Simple 2019</span>
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>
+
+        </div> <!-- end footer__bottom -->
+
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12 0l8 9h-6v15h-4v-15h-6z" />
+                </svg>
+            </a>
+        </div> <!-- end ss-go-top -->
+
+    </footer> <!-- end Footer-->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

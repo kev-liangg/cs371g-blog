@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>CS373 Spring 2021: Kevin Liang</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top" class="ss-single">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="s-header__content column">
+                <h1 class="s-header__logotext">
+                    <a title="">CS373 Spring 2021: Kevin Liang</a>
+                </h1>
+                <p class="s-header__tagline">Welcome to my blog!</p>
+            </div>
+
+        </div> <!-- end row -->
+
+        <a class="header-menu-toggle" href="#0" title="Menu"><span>Menu</span></a>
+
+    </header> <!-- Header End -->
+
+
+
+    <!-- Content
+    ================================================== -->
+    <div class="s-content">
+
+        <div class="row">
+
+            <div id="main" class="s-content__main large-8 column">
+
+                <article class="entry">
+
+                    <header class="entry__header">
+
+                        <h2 class="entry__title h1">
+                            <a href="entry1.html" title="">Entry #13</a>
+                        </h2>
+
+                        <div class="entry__meta">
+                            <ul>
+                                <li>April 25, 2021</li>
+                                <li>Kevin Liang</li>
+                            </ul>
+                        </div>
+
+                    </header> <!-- entry__header -->
+
+                    <div class="entry__content-media">
+                        <img src="images/cs373-portrait.jpg" height=50%; width=50%;
+                            sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    </div>
+
+                    <div class="entry__content">
+
+                        <h6> What did you do this past week? </h6>
+
+                        <p>                            
+                            This past week, I mostly focused on work for other classes. I have a final project presentation this coming week so I have been mostly working on that, while making sure I don’t fall behind on any of the other material or homework for the others.
+                        </p>
+
+                        <h6> What's in your way? </h6>
+
+                        <p>
+                            Nothing is in my way besides the usual amount of work left to do. I feel comfortable meeting all the upcoming deadlines for all my courses, and I’m definitely looking forward for this semester to wrap up.
+                        </p>
+
+                        <h6> What will you do next week? </h6>
+
+                        <p>
+                            Next week I will be prioritizing Phase IV of our group project. Refactoring will probably be the most tedious of the work, though making a video of our presentation might also be time-consuming if we decide to go that route. Either way, the work left is all straightforward and should be very manageable.
+                        </p>
+
+                        <h6> If you read it, what did you think of the What Happens to Us Does Not Happen to Most of You? </h6>
+
+                        <p>
+                            I think it’s disappointing that the issues described in the paper are still prevalent in today’s contemporary digital age, and even more so that the knowledge of it seems to be niche. I’m sure most people nowadays would agree if you pressed them about the issues, but I don’t think it’s actually something people consider day-to-day. It’s really hard to change active mindsets when there’s so much more going on in the industry to worry about, but any progress is progress nonetheless and I’m optimistic that awareness will continue to spread.
+                        </p>
+
+                        <h6> What was your experience of joins and refactoring? </h6>
+
+                        <p>
+                            Joins were definitely an interesting topic, and I understood them better with all the examples about the shared ID’s. Still, they were definitely a bit tricky and incorporating them with subqueries and conditions was a lot to digest. Refactoring was simple enough from the exercise we were given, and it definitely corresponds with my existing ideas of how refactoring should be used. I imagine that having a more formal instruction about refactoring though will help us pinpoint what to do in that Phase IV part of the requirements.
+                        </p>
+
+                        <h6>What made you happy this week?</h6>
+
+                        <p>
+                            I am fully back on my schedule of working out again mostly at Greg, and I am already getting a lot of my progress back since I lost them over this past year of relative absence. I also picked up a 6 pound bag of protein powder for $30 at Costo, so I also have great deals there to fuel my gains.
+                        </p>
+
+
+                        <h6>What's your pick-of-the-week or tip-of-the-week?</h6>
+
+                        <p>
+                            One of the optimizations I made for my group’s CI pipeline was to only run the frontend and backend tests when those source files changed. 
+                            The <a href="https://docs.gitlab.com/ee/ci/yaml/#onlyexcept-basic" target="_blank"
+                            rel="noopener noreferrer">official docs</a> detail how to define these rules in the configuration file, and I think it’s smart to implement this in order to save time. There’s no point running backend unit tests if nothing in the backend changes, and vice versa for the frontend. 
+                        </p>
+
+                        <p>
+                            That said, it makes sense to always run the Postman and the GUI tests because those interact with the hosted versions of the websites, and it is always good to verify the uptime of non-unit tests.
+                        </p>
+
+                    </div> <!-- entry__content -->
+                    
+                    <ul class="entry__post-nav h-group">
+                        <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entryfinal.html"><strong
+                                    class="h6">Next Entry</strong>Final Entry</a></li>
+                        <li class="prev"><a rel="prev"
+                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry12.html"><strong class="h6">Previous
+                                    Entry</strong>Entry #12</a></li>
+                    </ul>
+
+
+                </article> <!-- end entry -->
+
+            </div> <!-- end main -->
+
+        </div> <!-- end row -->
+
+    </div> <!-- end content-wrap -->
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <!--
+        <div class="row s-footer__top">
+            <div class="column">
+                <ul class="s-footer__social">
+                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-vimeo-v" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-skype" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div> <!-- end footer__top -->
+
+        <div class="row s-footer__bottom">
+
+            <div class="ss-copyright">
+                <span>© Copyright Keep It Simple 2019</span>
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>
+
+        </div> <!-- end footer__bottom -->
+
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12 0l8 9h-6v15h-4v-15h-6z" />
+                </svg>
+            </a>
+        </div> <!-- end ss-go-top -->
+
+    </footer> <!-- end Footer-->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

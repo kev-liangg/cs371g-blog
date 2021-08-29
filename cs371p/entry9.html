@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>CS373 Spring 2021: Kevin Liang</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top" class="ss-single">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="s-header__content column">
+                <h1 class="s-header__logotext">
+                    <a title="">CS373 Spring 2021: Kevin Liang</a>
+                </h1>
+                <p class="s-header__tagline">Welcome to my blog!</p>
+            </div>
+
+        </div> <!-- end row -->
+
+        <a class="header-menu-toggle" href="#0" title="Menu"><span>Menu</span></a>
+
+    </header> <!-- Header End -->
+
+
+
+    <!-- Content
+    ================================================== -->
+    <div class="s-content">
+
+        <div class="row">
+
+            <div id="main" class="s-content__main large-8 column">
+
+                <article class="entry">
+
+                    <header class="entry__header">
+
+                        <h2 class="entry__title h1">
+                            <a href="entry1.html" title="">Entry #9</a>
+                        </h2>
+
+                        <div class="entry__meta">
+                            <ul>
+                                <li>March 28, 2021</li>
+                                <li>Kevin Liang</li>
+                            </ul>
+                        </div>
+
+                    </header> <!-- entry__header -->
+
+                    <div class="entry__content-media">
+                        <img src="images/cs373-portrait.jpg" height=50%; width=50%;
+                            sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    </div>
+
+                    <div class="entry__content">
+
+                        <h6> What did you do this past week? </h6>
+
+                        <p>
+                            This past week, I focused on working with my team to meet the requirements for Phase II of the project. I did a lot of overall integration and environment work, making sure we were able to satisfy the expectations for all our components as well as setting up and optimizing our continuous integration pipeline. 
+                        </p>
+
+                        <h6> What's in your way? </h6>
+
+                        <p>
+                            I have an algorithms exam on Wednesday, which I will have to start focusing on after we turn in our Phase II work, but other than that nothing is really in my way. The Phase III deadline isn’t too far away though so I will also have to start thinking with my team about how we can make good progress on that given the work we already have.
+                        </p>
+
+                        <h6> What will you do next week? </h6>
+
+                        <p>
+                            Next week will definitely be devoted to Phase III once I finish my algorithms exam. There is still a lot regarding our data that could be added and refined, and implementing the functionalities of filtering and searching should be a main priority.
+                        </p>
+
+                        <h6> If you read it, what did you think of the Interface Segregation Principle? </h6>
+
+                        <p>
+                            I thought the paper addressed an important topic, but could have been a bit more clear at times with the examples. I definitely was able to realize why the given design patterns were bad and why the solutions were optimal, but it took me longer than I would have liked to really follow the examples as they were displayed. Especially in the case study with the ATM transactions, it was really hard for me to follow all the design and inheritance patterns as they were given in the text, and it was only the diagrams that helped with that.
+                        </p>
+
+                        <h6> What was your experience of comprehensions, yield, closures, and decorators? </h6>
+
+                        <p>
+                            I am feeling much more confident in comprehensions throughout the lectures, and I’ve even had a chance to use them in some coding screens recently. Yield was also really interesting to see, and I was definitely surprised to see how such simple syntax could translate into iterator functionality. Closures were another familiar topic from C++ in both Generic Programming and Operating Systems, so it was curious to see how they functioned in such a dynamically typed language like Python. Finally, decorators made perfect sense in both their syntax and how they worked, and I’m sure there’s even more potential to how they can be used in all sorts of situations.
+                        </p>
+
+                        <h6>What made you happy this week?</h6>
+
+                        <p>
+                            I was definitely most happy to hear that the project deadline was extended. My team and I really needed the breathing room to wrap things up, so having the whole weekend to do so was fantastic.
+                        </p>
+
+
+                        <h6>What's your pick-of-the-week or tip-of-the-week?</h6>
+
+
+                        <p>My tip-of-the-week is <a href="https://eslint.org/" target="_blank"
+                                rel="noopener noreferrer">ESLint</a>, a static analyzer for Javascript code. 
+
+                                If you used create-react-app for the frontend setup, the scripts actually should have already installed it as a dependency. To set it up, just include "lint": "eslint ." as an entry under the scripts definition in package.json. To call ESLint, simply run either yarn lint or npm lint and it will check the code for problems. 
+
+                                I also added something called <a href="https://www.npmjs.com/package/eslint-plugin-import" target="_blank"
+                                rel="noopener noreferrer">eslint-plugin-import</a> 
+                                
+                                to supplement the static analysis, as sometimes our website crashed due to unresolved imports. Using ESLint in our pipeline in place of production building the app has saved us over a minute per pipeline, which really added up across all our commits and jobs.
+
+
+                                
+                        </p>
+                    </div> <!-- entry__content -->
+                    
+                    <ul class="entry__post-nav h-group">
+                        <li class="next"><a rel="next" href="http://www.cs.utexas.edu/~kevliang/cs373/entry10.html"><strong
+                                    class="h6">Next Entry</strong>Entry #10</a></li>
+                        <li class="prev"><a rel="prev"
+                                href="http://www.cs.utexas.edu/~kevliang/cs373/entry8.html"><strong class="h6">Previous
+                                    Entry</strong>Entry #8</a></li>
+                    </ul>
+
+
+                </article> <!-- end entry -->
+
+            </div> <!-- end main -->
+
+        </div> <!-- end row -->
+
+    </div> <!-- end content-wrap -->
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <!--
+        <div class="row s-footer__top">
+            <div class="column">
+                <ul class="s-footer__social">
+                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-vimeo-v" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-skype" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div> <!-- end footer__top -->
+
+        <div class="row s-footer__bottom">
+
+            <div class="ss-copyright">
+                <span>© Copyright Keep It Simple 2019</span>
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>
+
+        </div> <!-- end footer__bottom -->
+
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12 0l8 9h-6v15h-4v-15h-6z" />
+                </svg>
+            </a>
+        </div> <!-- end ss-go-top -->
+
+    </footer> <!-- end Footer-->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
