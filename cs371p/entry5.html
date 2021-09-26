@@ -79,12 +79,12 @@
                     <header class="entry__header">
 
                         <h2 class="entry__title h1">
-                            <a href="entry1.html" title="">Entry #4</a>
+                            <a href="entry1.html" title="">Entry #5</a>
                         </h2>
 
                         <div class="entry__meta">
                             <ul>
-                                <li>September 19, 2021</li>
+                                <li>September 26, 2021</li>
                                 <li>Kevin Liang</li>
                             </ul>
                         </div>
@@ -101,76 +101,76 @@
                         <h6> What did you do this past week? </h6>
 
                         <p>
-                            I was able to comfortably make all of my deadlines this past week, including Collatz. I
-                            didn't have much else to do so I was able to mentally relax a bit and use my time for other
-                            things like hanging out with friends and playing video games.
+                            This past week, I implemented and finished the HackerRank submission for Project 2:
+                            Australian Voting. It was fairly simple overall in terms of the object-oriented design I
+                            chose and the optimizations, though I did run into a few obscure bugs that took a bit longer
+                            to resolve. Interestingly, one of those bugs I ran into just so "worked" with the HackerRank
+                            input without fixing it if the sort was unstable, but went wrong with a stable sort. I'm
+                            glad I was able to catch that by chance though, as it's likely I would have had to
+                            rediscover the bug through other acceptance tests even though I'd pass 3/3 HackerRank test
+                            cases.
                         </p>
 
                         <h6> What's in your way? </h6>
 
                         <p>
-                            Nothing is in my way aside from my next set of deadlines in these upcoming weeks. I
-                            definitely feel more refreshed with this bit of a break week and break weekend, which should
-                            be helpful for getting back into a productive state.
+                            I need to complete the remaining workflow tasks for the project as well as finalize my unit
+                            tests now that the correctness of my program has been confirmed.
                         </p>
 
                         <h6> What will you do next week? </h6>
 
                         <p>
-                            Next week I will probably start on my upcoming projects in my other courses. The main thing
-                            at the moment is writing out my group's project proposal for the iOS Mobile Computing
-                            course, since that requires a lot of outlining in the deliverables and overall estimation.
+                            Unfortunately, I will have to prioritize other homework and project deadlines over the next
+                            week in my other courses and hence set aside the remaining tasks for Project 2. I'm a bit
+                            behind again in my other courses, plus I need to do some real-life tasks which cuts into a
+                            lot of the time I have.
                         </p>
 
-                        <h6> If you read it, what did you think of the Paper #4: What Happens to Us? </h6>
+                        <h6> If you read it, what did you think of the Paper #5: Pair Programming? </h6>
 
                         <p>
-                            It was definitely a very heavy paper and speaks magnitudes as to the different experiences
-                            men and women have within the field of Computer Science. Even if the specific context was
-                            towards higher studies and academia, I have no doubt that women in the working industry
-                            experience similar discrimination. Even though we can't control the harmful actions of
-                            others, we must all stay vigilant in order to address them when we witness them; only that
-                            way can we foster a truly supportive environment where everyone in the field has unfair
-                            obstacles removed on their path to merit and success.
+                            I liked the paper overall, and the concept definitely holds up today despite its more dated
+                            publication. Unfortunately, I feel there's less incentive to work with a partner with the
+                            new grading scheme as a virtual token is much less of a motivator than extra credit. But
+                            I've had very positive experiences with pair programming in previous iterations of Dr.
+                            Downing's courses, so it's definitely something I'd be willing to accept for more difficult
+                            future projects.
                         </p>
 
-                        <h6> What was your experience of Collatz, exceptions, and strcmp? </h6>
+                        <h6> What was your experience of vector, list, and deque, and invalidation? </h6>
 
                         <p>
-                            Collatz was straightforward as expected, as I had already done this intro project previously
-                            with Dr. Downing's other courses. Exceptions were also simple, which is good as it is a
-                            powerful component of the language and hence should be easily understandable. Finally, the
-                            strcmp exercise definitely was stressful for my entire group because we forgot we had to
-                            uncomment all the test definitions and didn't figure that out until mere minutes from the
-                            end. Fortunately, the code I wrote worked on the first try; we definitely would not have had
-                            time to debug any failures otherwise.
+                            I was already fully familiar with all of these concepts, as I remember them from my Generic
+                            Programming course I also took with Dr. Downing two summers ago.
                         </p>
 
                         <h6>What made you happy this week?</h6>
 
-                        <p>I went on an afternoon tubing trip on the San Marcos River with the Chinese Student
-                            Association here at UT. It was great being able to unwind by floating down the river and
-                            basking in the sun. I didn't lose any of my possessions nor get burnt, so it was certainly
-                            time well spent. </p>
+                        <p>
+                            Not exactly this week, but my new Tesla is finally being delivered on Monday!
+                        </p>
 
                         <h6>What's your pick-of-the-week or tip-of-the-week?</h6>
 
-                        <p>I stumbled upon this <a
-                                href="https://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play/index.html"
-                                target="_blank" rel="noopener noreferrer">interactive self-care guide</a>
-                            containing very useful advice for dealing with overall suboptimal feelings. Of course,
-                            pardon the coarser language that the guide and website uses; regardless, the information and
-                            suggestions it contains is certainly valuable so I hope it helps on those rough days.</p>
-                            
+                        <p>
+                            HackerRank purposely hides the output of the project test cases, which can be particularly
+                            frustrating when it keeps spitting out "Wrong Answer" with no other details. What helped me
+                            debug a bit more was to use the fact it has a separate debug message for "Abort Called"
+                            which can be triggered with a purposely failing assertion. Hence, to determine the nature of
+                            the test cases, I used certain conditionals with an assert(false) to see if the test case
+                            satisfied those conditions, which would be exposed by that "Abort Called" message instead of
+                            "Wrong Answer."
+                        </p>
                     </div> <!-- entry__content -->
 
                     <ul class="entry__post-nav h-group">
-                        <li class="next"><a rel="next"
-                                href="http://www.cs.utexas.edu/~kevliang/cs371p/entry5.html"><strong class="h6">Next
-                                    Entry</strong>Entry #5</a></li>
+                        <!-- <li class="next"><a rel="next"
+                                href="http://www.cs.utexas.edu/~kevliang/cs371p/entry7.html"><strong class="h6">Next
+                                    Entry</strong>Entry #7</a></li> -->
                         <li class="prev"><a rel="prev"
-                                href="http://www.cs.utexas.edu/~kevliang/cs371p/entry3.html"><strong class="h6">Previous
-                                    Entry</strong>Entry #3</a></li>
+                                href="http://www.cs.utexas.edu/~kevliang/cs371p/entry4.html"><strong class="h6">Previous
+                                    Entry</strong>Entry #4</a></li>
                     </ul>
 
 
